@@ -14,11 +14,11 @@ on:
     types: [started]
 
 env:
-  MANIFEST: https://gitlab.com/OrangeFox/Manifest.git
-  MANIFEST_BRANCH: fox_9.0
-  DEVICE: rosy
-  DT_LINK: https://github.com/ElytrA8/recovery_rosy
-  DT_PATH: device/xiaomi/rosy
+  MANIFEST: git://github.com/PitchBlackRecoveryProject/manifest_pb.git
+  MANIFEST_BRANCH: android-10.0
+  DEVICE: surya
+  DT_LINK: https://github.com/Joker-V2/android_device_xiaomi_surya-pbrp -b backup
+  DT_PATH: device/xiaomi/surya
   TARGET: recoveryimage
   TZ: Asia/Kolkata
 
